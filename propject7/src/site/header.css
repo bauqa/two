@@ -1,0 +1,253 @@
+*{margin: 0;padding: 0;text-decoration: none;font-family: 'Montserrat';}
+h1,h2,h3,h4,h5,h6{font-size: 14px;}
+header{
+	background-size: cover;
+	background-position: top center;
+position: relative;}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.modal{
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	background: rgba(0,0,0,0.4);
+	position: fixed;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	left: 0;
+}
+.modal_content{
+	padding: 20px;
+	z-index: 10000;
+	border-radius: 12px;
+	height: 200px;
+	width: 400px;
+	background-color: white;
+}
+
+.title_head{
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	line-height: 155%;
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+.img_head{
+	background: url('https://mass-images.pro/files/preview/3/07/f113bfdde50b701c7d90f451c30e738c.jpg?1652858381395');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 120px;
+	width: 100%;
+	height: 500px;
+}
+/* product */
+.product{
+	padding: 25px 25px;
+	border: 1px solid rgb(105, 104, 104);
+	border-radius: 20px;
+	-webkit-box-shadow: 0px 0px 26px 7px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 0px 0px 26px 7px rgba(34, 60, 80, 0.2);
+	box-shadow: 0px 0px 26px 7px rgba(34, 60, 80, 0.2);
+	margin-right: 20px;
+	margin-bottom: 20px;
+	align-items: center;
+	transition: all 0.8s ease;
+	justify-content: center;
+}
+.name{
+	font-size: 20px;
+	color: rgb(65, 61, 61);
+	margin-bottom: 15px;
+}
+.buy{
+	font-size: 20px;
+	color: rgb(33, 216, 42);
+	margin-bottom: 15px;
+
+}
+header .shop-cart{
+	border: none;
+	padding: 10px 15px;
+	top: 7%;
+	z-index: 1000;
+	min-width: 300px;
+	background: #fafafa;
+	right: 30%;
+
+
+
+	-webkit-box-shadow: 0px 0px 26px 7px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 0px 0px 26px 7px rgba(34, 60, 80, 0.2);
+	box-shadow: 0px 0px 26px 7px rgba(34, 60, 80, 0.2);	
+	position: absolute;
+}
+.product:hover{
+	transform: scale(1.05);
+}
+.btn{
+	cursor: pointer;
+	background:    #f0a22e;
+	border-radius: 11px;
+	padding:       15px 18px;
+	color:         #ffffff;
+	border: none;
+	font:          normal bold 23px/1 "Montserrat", sans-serif;
+	text-align:    center;
+}
+.img{
+	margin-bottom: 20px;
+	width: 256px;
+	height: 256px;
+}
+
+/*no product*/
+.products{
+	margin-top: 120px;
+	flex-wrap: wrap;
+	justify-content: center;
+	display: flex;
+}
+.img_head .img_text{
+	color: white;
+	font-size: 40px;
+	padding: 50px 0px 0px 50px;
+	width: 300px;
+	font-weight: 600;
+	font-family: 'Montserrat';
+	line-height: 155%;
+}
+.nav_menu{
+	font-size: 16px;
+	margin-left: auto;
+	color: rgb(92, 91, 91);
+	margin-right: 50px;
+	transition: all 0.3s ease;
+}
+
+.nav_menu:last-child {
+
+	margin-right:  0;
+  
+}
+.nav_menu:hover{
+	color: rgb(56, 54, 54);
+
+}
+.menu_n{
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+}
+.korzina{
+	border: none;
+	background: none;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	margin-right: 50px;
+}
+.korzina:hover{
+	transform: scale(1.1);
+	background: #c72323;
+}
+.foto{
+	width: 30px;
+	height: 30px;
+}
+.kord{
+	align-items: center;
+	display: flex;
+}
+.n{justify-content: center;align-items: center;}
+.nos{
+	color: #242020;
+	font-size: 30px;
+	text-align: center;
+	font-weight: 700;
+	font-family: 'Montserrat';
+}
+.img_s{
+	width: 50px;
+	margin-right: 15px;
+	height: 50px;
+	margin-bottom: 15px;
+}
+.menu{
+	display: flex;
+	align-items: center;
+}
+.two{
+	margin-bottom: 15px;
+}
+.d{
+	display: flex;
+	
+	font-size: 20px;
+	color: rgb(33, 216, 42);
+	align-items: center;
+}
+.s{
+	font-size: 19px;
+	color: rgb(65, 61, 61);
+	margin-bottom: 15px;
+	margin-right: 15px;
+}
+@media screen and (max-width: 1200px) {
+	.container {
+		margin: 0 auto;
+		width: 1170px;
+	}
+}
+@media screen and (max-width:1199px){
+    .container{
+		width: 991px;
+    } 
+	.product{
+		margin-left: 25px;
+	}
+    
+}
+@media screen and (max-width: 991px) {
+	.container {
+		width: 768px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.container {
+		width: 568px;
+	}
+	
+}
+
+@media screen and (max-width: 575px) {
+	.container {
+		width: 100%;
+		padding: 0 15px;
+		max-width: 395px;
+	}
+	.menu{
+		flex-wrap: wrap;
+	}
+	nav{
+		flex-wrap: wrap;
+	}
+}
+@media screen and (max-width: 376px) {
+	.container {
+		width: 100%;
+		padding: 0 15px;
+		max-width: 345px;
+	}
+	
+}
+@media screen and (max-width: 326px) {
+	.container {
+		padding: 0 5px;
+		max-width: 290px;
+	}
+	
+	
+}
